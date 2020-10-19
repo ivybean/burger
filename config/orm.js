@@ -11,6 +11,7 @@ var orm = {
       cb(result);
     });
   },
+
   create: function(table, cols, vals, cb) {
     var queryString = "INSERT INTO " + table;
 

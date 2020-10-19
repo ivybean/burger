@@ -2,10 +2,10 @@
 $(function () {
   $(".devour-burger").on("click", function (event) {
     var id = $(this).data("id");
-    var devourBurger = $(this).data("devourBurger");
+    // var devourBurger = $(this).data("devourBurger");
 
     var burgerStatus = {
-      devoured: devourBurger
+      devoured: false
     };
 
     $(".create-form").on("submit", function (event) {
