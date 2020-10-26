@@ -2,13 +2,13 @@
 $(function () {
   $(".devour-burger").on("click", function (event) {
     var id = $(this).data("id");
-    // var devourBurger = $(this).data("devourBurger");
+    var devourBurger = $(this).data("devourBurger");
 
     var burgerStatus = {
-      devoured: false
+      devoured: devourBurger
     };
 
-    $(".create-form").on("submit", function (event) {
+    $(".add-burger").on("submit", function (event) {
       // Make sure to preventDefault on a submit event.
       event.preventDefault();
 
