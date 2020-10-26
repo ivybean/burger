@@ -1,0 +1,24 @@
+body {
+  background-color: #f79d65;
+}
+
+#burgers-list-col, #devouredBurgers-list {
+  background-color: #adcfff;
+  padding: 15px;
+  width: auto;
+  max-width: 400px;
+  border-radius: 5px;
+  border: black dashed 5px;
+  margin: 10px;
+  line-height: 50px;
+}
+
+.btn {
+  color: #f79d65;
+  background-color: black;
+  border-radius: 2px;
+}
+
+.btn:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
