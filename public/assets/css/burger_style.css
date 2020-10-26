@@ -4,13 +4,15 @@ body {
 
 #burgers-list-col, #devouredBurgers-list {
   background-color: #adcfff;
-  padding: 15px;
   width: auto;
   max-width: 400px;
   border-radius: 5px;
-  border: black dashed 5px;
+  border: black solid 2px;
   margin: 10px;
   line-height: 50px;
+}
+h3 {
+  text-align: center;
 }
 
 .btn {
