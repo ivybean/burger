@@ -14,6 +14,7 @@ body {
   border: black solid 2px;
   margin: 10px;
   line-height: 30px;
+  font-family: 'Turret Road', cursive;
 }
 
 h1{
@@ -24,6 +25,7 @@ h1{
 
 h2{
   text-align: center;
+  font-family: 'Turret Road', cursive;
 }
 
 form {
@@ -33,6 +35,7 @@ form {
 
 h3 {
   text-align: center;
+  font-family: 'Turret Road', cursive;
 }
 
 .btn {
@@ -41,6 +44,11 @@ h3 {
   border-radius: 4px;
   border: solid #f79d65 2px;
   box-shadow: black;
+  font-family: 'Turret Road', cursive;
+}
+
+ul {
+  font-family: 'Turret Road', cursive;
 }
 
 .btn:hover {
